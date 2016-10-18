@@ -14,5 +14,13 @@
   },
   "dependencies": {
     "@types/jest": "^15.1.32"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swanie21/code-exercises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swanie21/code-exercises/issues"
+  },
+  "homepage": "https://github.com/swanie21/code-exercises#readme"
 }
