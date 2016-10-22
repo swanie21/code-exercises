@@ -5,5 +5,5 @@ it('should return true if the word has unique characters', () => {
 });
 
 it('should return false if the word does not have unique characters', () => {
-  expect(uniqueString('heyyy')).toBe(false);
+  expect(uniqueString('heyyyyy')).toBe(false);
 });

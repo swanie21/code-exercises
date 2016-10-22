@@ -13,7 +13,25 @@ module.exports = (word1, word2) => {
 // hash table is an effective and efficient way to handle an array, better than using sort method since it's slower
 // iteration is faster than sorting
 
+// const firstWordLetter = {};
+// const secondWordLetter = {};
+//
+//   for(let letter of string1) {
+//     const l = firstWordLetter[letter];
+//     firstWordLetter[letter] = l ? l + 1 : 1;
+//   }
+//   for(let letter of string2) {
+//     const l = secondWordLetter[letter];
+//     secondWordLetter[letter] = l ? l + 1 : 1;
+//   }
+//   for(let letter of Object.keys(firstWordLetter)) {
+//     if(Object.keys(firstWordLetter).length !== Object.keys(secondWordLetter).length) {
+//       return false;
+//     }
+//   }
+//   return true;
+
 // ES6 for loop without i iteration
-// for( let char of string) {console.log(char)}
+// for( let letter of string) {console.log(letter)}
 
  // Big O complexity chart -> common data structure operations
